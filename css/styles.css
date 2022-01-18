@@ -49,6 +49,8 @@ body {
 }
 
 .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: blueviolet;
 }
 
@@ -161,6 +163,8 @@ body {
 }
 
 .feature .text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -172,6 +176,8 @@ body {
 /* Наша команда */
 
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -180,6 +186,8 @@ body {
 }
 
 .section .name {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -189,6 +197,8 @@ body {
 }
 
 .section .position {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -276,6 +286,6 @@ body {
 .portfolio .type {
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
     color: var(--text-color);
 }
