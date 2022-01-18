@@ -1,0 +1,244 @@
+/* основний колір тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* основний колір фону #E5E5E5 */
+/* другорядний колір фону #2F303A */
+
+
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --primary-background-color: #E5E5E5;
+    --second-background-color: #2F303A;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.list {
+    list-style: none;
+}
+
+/* Шапка сайта */
+
+.logo-header {
+    color: #000000;
+    text-decoration-line: none;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.web {
+   font-family: Raleway, sans-serif;
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: var(--accent-color);
+}
+
+.site-nav .pages {
+    text-decoration-line: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+
+.site-nav .pages:hover,
+.site-nav .pages:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+.site-cont a {
+    text-decoration-line: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-cont a:hover,
+.site-cont a:focus {
+    color: var(--accent-color);
+}
+
+/* Герой */
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.order {
+    background: var(--accent-color);
+    font-family: inherit;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+
+.order:hover,
+.order:focus {
+    background: #188CE8;
+}
+
+/* Наши преимущества */
+
+.feature .title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.feature .text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.section .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.section .position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* Футер */
+
+.section-footer {
+    background-color: var(--second-background-color);
+}
+
+.logo-footer {
+    text-decoration-line: none;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.site-cont-footer .address {
+    text-decoration-line: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.site-cont-footer .cont {
+    text-decoration-line: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.site-cont-footer .cont:hover,
+.site-cont-footer .cont:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio .filter {
+    background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.portfolio .filter:hover,
+.portfolio .filter:focus {
+    background-color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.portfolio .name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.portfolio .type {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em
+    color: var(--text-color);
+}
