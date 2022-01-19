@@ -56,11 +56,11 @@ body {
 
 /* Шапка сайта */
 
-.page-header {
+.header {
     background-color: green;
 }
 
-.logo-header {
+.header-logo-link {
     color: #000000;
     text-decoration-line: none;
     font-family: Raleway, sans-serif;
@@ -79,7 +79,7 @@ body {
    color: var(--accent-color);
 }
 
-.site-nav .pages {
+.navigation-link {
     text-decoration-line: none;
     color: var(--primary-text-color);
     font-weight: 500;
@@ -88,16 +88,16 @@ body {
     letter-spacing: 0.02em;
     }
 
-.site-nav .pages:hover,
-.site-nav .pages:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .current {
+.navigation-current {
     color: var(--accent-color);
 }
 
-.site-cont a {
+.header-contact-link {
     text-decoration-line: none;
     color: var(--text-color);
     font-weight: 500;
@@ -106,8 +106,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.site-cont a:hover,
-.site-cont a:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
     color: var(--accent-color);
 }
 
@@ -126,7 +126,7 @@ body {
     background-color: orange;
 }
 
-.order {
+.hero-btn {
     background: var(--accent-color);
     font-family: inherit;
     min-width: 200px;
@@ -143,8 +143,8 @@ body {
     border: 2px solid transparent;
 }
 
-.order:hover,
-.order:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -152,7 +152,7 @@ body {
 
 /* Наши преимущества */
 
-.feature .title {
+.feature-title {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 14px;
@@ -162,7 +162,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.feature .text {
+.feature-text {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 14px;
@@ -173,9 +173,7 @@ body {
 
 /* Чем мы занимаемся */
 
-/* Наша команда */
-
-.section-title {
+.activity-title {
     margin-top: 0;
     margin-bottom: 50px;
     font-size: 36px;
@@ -185,7 +183,19 @@ body {
     color: var(--primary-text-color);
 }
 
-.section .name {
+/* Наша команда */
+
+.team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.team-list-title {
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: 500;
@@ -196,7 +206,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.section .position {
+.team-list-text {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
@@ -208,11 +218,11 @@ body {
 
 /* Футер */
 
-.section-footer {
+.footer {
     background-color: var(--second-background-color);
 }
 
-.logo-footer {
+.footer-logo-link {
     text-decoration-line: none;
     font-family: Raleway, sans-serif;
     font-weight: bold;
@@ -222,7 +232,7 @@ body {
     color: var(--white-color);
 }
 
-.site-cont-footer .address {
+.footer-contact-address {
     text-decoration-line: none;
     font-style: normal;
     font-size: 14px;
@@ -231,7 +241,7 @@ body {
     color: var(--white-color);
 }
 
-.site-cont-footer .cont {
+.footer-contact-link {
     text-decoration-line: none;
     font-style: normal;
     font-size: 14px;
@@ -240,14 +250,14 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.site-cont-footer .cont:hover,
-.site-cont-footer .cont:focus {
+.footer-contact-link:hover,
+.footer-contact-link:focus {
     color: var(--accent-color);
 }
 
 /* Portfolio */
 
-.portfolio .filter {
+.portfolio-btn {
     background-color: #F5F4FA;
     font-family: inherit;
     font-weight: 500;
@@ -261,8 +271,8 @@ body {
     border: 2px solid transparent;
 }
 
-.portfolio .filter:hover,
-.portfolio .filter:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     background-color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
@@ -276,14 +286,14 @@ body {
     border-radius: 4px;
 }
 
-.portfolio .name {
+.portfolio-list-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
 
-.portfolio .type {
+.portfolio-list-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
