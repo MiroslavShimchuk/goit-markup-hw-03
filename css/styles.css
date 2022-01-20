@@ -63,7 +63,7 @@ body {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -151,8 +151,6 @@ body {
 
 .navigation-link {
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
     text-decoration-line: none;
     color: var(--primary-text-color);
     font-weight: 500;
@@ -181,8 +179,6 @@ body {
 
 .header-contact-link {
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
     text-decoration-line: none;
     color: var(--text-color);
     font-weight: 500;
@@ -201,6 +197,7 @@ body {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background: #2F303A;
 }
 
 .hero-title {
@@ -278,6 +275,10 @@ body {
 }
 
 /* Чем мы занимаемся */
+
+.activity {
+    padding-top: 0;
+}
 
 .activity-list {
     display: flex;
